@@ -64,6 +64,11 @@ public final class ServerBootstrapConfig extends AbstractBootstrapConfig<ServerB
         return bootstrap.childAttrs();
     }
 
+    /**
+     *
+     * 就算是最优秀的框架，也是用的StringBuilder来拼装字符串。
+     *
+     */
     @Override
     public String toString() {
         StringBuilder buf = new StringBuilder(super.toString());

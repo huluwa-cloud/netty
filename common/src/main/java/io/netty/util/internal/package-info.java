@@ -15,6 +15,10 @@
  */
 
 /**
+ *
+ * netty自己封装了一些只给内部使用的工具类（不允许外部使用）。
+ * 这个自己写代码的时候，值得参考一下。
+ *
  * <em>Internal-use-only</em> utilities which is not allowed to be used
  * outside Netty.
  */
